@@ -27,7 +27,7 @@ RegistryValues:
   Values:
     - Key: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W32Time\Parameters
       ValueName: NtpServer
-      ValueData: pool.ntp.org,0x9
+      ValueData: pool.contoso.local,0x2
       ValueType: String
       Ensure: Present
       Force: true
