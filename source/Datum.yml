@@ -2,6 +2,7 @@ ResolutionPrecedence:
   - AllNodes\$($Node.Environment)\$($Node.NodeName)
   - Environment\$($Node.Environment)
   - Locations\$($Node.Location)
+  - FireSections\$($Node.FireSection)
   - Roles\$($Node.Role)
   - Baselines\Security
   - Baselines\$($Node.Baseline)

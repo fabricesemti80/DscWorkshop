@@ -4,6 +4,7 @@ Role: FileServer
 Description: '[x= "$($Node.Role) in $($Node.Environment)" =]'
 Location: Frankfurt
 Baseline: Server
+FireSection: Section1
 
 ComputerSettings:
   Name: '[x={ $Node.NodeName }=]'

@@ -4,6 +4,7 @@ Role: WebServer
 Description: '[x= "$($Node.Role) in $($Node.Environment)" =]'
 Location: Singapore
 Baseline: Server
+FireSection: Section1
 
 ComputerSettings:
   Name: '[x={ $Node.NodeName }=]'
