@@ -1,0 +1,6 @@
+Configurations:
+- WindowsFeatures
+
+WindowsFeatures:
+  Names:
+  - +UpdateServices
