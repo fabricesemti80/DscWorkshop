@@ -2,7 +2,7 @@ NodeName: '[x={ $Node.Name }=]'
 Environment: '[x={ $File.Directory.BaseName } =]'
 Role: WebServer
 Description: '[x= "$($Node.Role) in $($Node.Environment)" =]'
-Location: Singapore
+Location: Wigan
 Baseline: Server
 FireSection: Section2
 

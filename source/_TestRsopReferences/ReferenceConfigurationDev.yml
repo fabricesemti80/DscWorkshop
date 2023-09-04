@@ -63,7 +63,7 @@ DscTagging:
   Layers:
   - AllNodes\Dev\ReferenceConfigurationDev
   - Environment\Dev
-  - Locations\Frankfurt
+  - Locations\London
   - Roles\FileServer
   - Baselines\Security
   - Baselines\Server
@@ -74,7 +74,7 @@ FileSystemObjects:
     Type: Directory
   - DestinationPath: C:\Test\Dev-Environment
     Type: Directory
-  - DestinationPath: C:\Test\Frankfurt
+  - DestinationPath: C:\Test\London
     Type: Directory
   - DestinationPath: C:\Test
     Type: Directory
@@ -91,7 +91,7 @@ FileSystemObjects:
     SourcePath: '\\DSCDC01\SYSVOL\contoso.com\Policies'
 NodeName: ReferenceConfigurationDev
 Environment: Dev
-Location: Frankfurt
+Location: London
 RegistryValues:
   DependsOn: '[FileSystemObjects]FileSystemObjects'
   Values:

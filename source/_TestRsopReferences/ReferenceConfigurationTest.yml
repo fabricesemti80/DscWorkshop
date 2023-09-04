@@ -51,7 +51,7 @@ Configurations:
 - DscDiagnostic
 SecurityBase:
   Role: WebServer
-Location: Singapore
+Location: Wigan
 Baseline: Server
 NetworkIpConfiguration:
   Interfaces:
@@ -67,7 +67,7 @@ DscTagging:
   Layers:
   - AllNodes\Test\ReferenceConfigurationTest
   - Environment\Test
-  - Locations\Singapore
+  - Locations\Wigan
   - Roles\WebServer
   - Baselines\Security
   - Baselines\Server
@@ -97,7 +97,7 @@ FileSystemObjects:
   Items:
   - DestinationPath: C:\Test\Test-Environment
     Type: Directory
-  - DestinationPath: C:\Test\Singapore
+  - DestinationPath: C:\Test\Wigan
     Type: Directory
   - DestinationPath: C:\Inetpub\TestApp1
     Type: Directory
